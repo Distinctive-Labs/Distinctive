@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Distinctive</title>
+    <link rel="icon" href="https://lh3.googleusercontent.com/mrEe9E72B9yHKc5QoxN6dnuYUTDws3Sfi-7-Lay50YDGUzQRj9VIGuodEHvvSJeI9TQAhM9Kbro3nkxO8whQ2Tc=w1280" type="image/png">
+    <style>
+        /* Reset default styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #1e3a8a, #3b82f6, #2563eb);
+            color: #fff;
+            overflow-x: hidden;
+            animation: gradientShift 8s ease infinite;
+            background-size: 200% 200%;
+        }
+
+        /* Background animation */
+        @keyframes gradientShift {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        /* Header styling */
+        header {
+            background-color: rgba(17, 24, 39, 0.85);
+            color: #e0e7ff;
+            padding: 80px 20px;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+            position: relative;
+            z-index: 1;
+        }
+
+        /* Logo styling with animation */
+        header img {
+            width: 120px;
+            margin-bottom: 25px;
+            animation: float 4s ease-in-out infinite;
+        }
+
+        /* Logo floating effect */
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+
+        /* Title styling */
+        h1 {
+            font-size: 3.5em;
+            margin: 10px 0;
+            color: #60a5fa;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            animation: fadeIn 1.2s ease;
+        }
+
+        /* Tagline styling */
+        p {
+            font-size: 1.5em;
+            color: #dbeafe;
+            margin-bottom: 35px;
+            opacity: 0.9;
+            animation: fadeIn 1.6s ease;
+        }
+
+        /* Decorative divider line with glow */
+        .divider {
+            width: 90px;
+            height: 4px;
+            background-color: #60a5fa;
+            margin: 30px auto;
+            border-radius: 2px;
+            box-shadow: 0 0 8px #60a5fa, 0 0 12px #60a5fa;
+            opacity: 0.8;
+            animation: fadeIn 2s ease;
+        }
+
+        /* Footer styling */
+        footer {
+            background-color: rgba(17, 24, 39, 0.85);
+            color: #cbd5e1;
+            padding: 20px;
+            text-align: center;
+            font-size: 1em;
+            letter-spacing: 1.5px;
+            box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.3);
+            transition: background-color 0.3s ease;
+        }
+
+        /* Footer hover effect */
+        footer:hover {
+            background-color: rgba(37, 47, 67, 0.9);
+        }
+
+        /* Smooth fade-in animations */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="https://lh3.googleusercontent.com/mrEe9E72B9yHKc5QoxN6dnuYUTDws3Sfi-7-Lay50YDGUzQRj9VIGuodEHvvSJeI9TQAhM9Kbro3nkxO8whQ2Tc=w1280" alt="Distinctive Logo">
+    <h1>Distinctive</h1>
+    <p>Your Trusted Partner for Quality Solutions</p>
+    <div class="divider"></div>
+</header>
+
+<footer>
+    <p>&copy; 2024 Distinctive. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
